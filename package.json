@@ -1,0 +1,24 @@
+{
+  "name": "phase-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wube-dev/MyFirstProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wube-dev/MyFirstProject/issues"
+  },
+  "homepage": "https://github.com/wube-dev/MyFirstProject#readme",
+  "dependencies": {
+    "mysql2": "^3.15.3"
+  }
+}
