@@ -1,0 +1,63 @@
+
+            statick
+            never any chnage on content till change code
+  ==>> ✅ The browser reads this file directly from your computer — no internet connection is needed.
+📦 Everything (HTML, CSS, JS) is fixed/static — it doesn’t change unless you manually edit the file.
+             page means the content don't change by another
+             if my first portf send to kedr and juhar when one of them 
+             if click home and another part don't make any chnage on 
+             another by clicling(client)
+              
+              so all are fixed till we modify code
+
+
+what happen when visit one web following step
+      Transmission Control Protocol (TCP)/The Internet Protocol (IP)
+  
+Application layer-place to seach
+        a kind of place to as like 
+        google chrome (http)..
+         CyberDuck/FTP,
+          Outlook /SMPT
+        data can be txt ,video,file 
+      	Where apps like browsers operate (HTTP, FTP).	Data
+port is palace for specific number 
+Transport layer-
+         is this segmented any file to small peacie for transfer
+         Handles data flow; adds port number (TCP).Data Name is Segment
+         when sent data with segment it used keep  port and sequance of data
+        secured for 443
+        unsecured or defaulte is 40
+    TCP divides an
+    incoming byte stream into segments and assigns a separate
+    sequence number to each segment
+      TCP also manages
+    flow control so that a fast sender
+
+  Segment = Data + (port and sequence information)
+
+Network	  
+         Adds IP addresses.     	Packet
+      Packet: At this layer, what is going to be sent to the receiving
+      device is called a packet
+
+       Packet = segment + IPs(the name/address sender device ይዘው እዲመለሱ የሚያደርግ ወደተጠየቀበት=domain name already assigned by dns campany)
+                           e.g ET(168).(SIDAMA)192.1(hawassa)
+
+
+Data Link	
+          Adds device’s MAC address (unique ID).	Frame
+          Frame(ይዞ የሚመለሲበት with ip+mac በማጣመር) = packet + Mac address( MAC (Media Access Control) address: It is a unique 48-bit
+serial number assigned to a network card (circuitry) of any
+device connected by internet or ethernet. )
+
+Physical
+       	Actual cables or Wi-Fi that send bits.	Bits 
+
+
+
+
+       ===========dynamic==================
+🧠 Dynamic pages let every user see different content.
+
+📌 Node.js is great at building dynamic web servers like this.

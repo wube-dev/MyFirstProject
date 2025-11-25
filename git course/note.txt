@@ -1,0 +1,151 @@
+🧭 Phase 3 Overview: Terminal, Bash Script & Git
+1️⃣ Key Concepts
+GUI (Graphical User Interface)
+
+Lets you interact with your OS using icons, windows, and menus.
+
+You mostly use your mouse.
+
+Terminal
+
+Text-based interface for typing commands.
+
+Lets you control your computer directly, without a GUI.
+
+Shell
+
+Software that interprets your commands in the terminal.
+
+Examples:
+
+Bash (Linux/Mac)
+
+CMD (Windows)
+
+PowerShell (Windows)
+
+Bash (Bourne Again SHell)
+
+Most common command-line interface (CLI).
+
+Lets you control your computer using commands and scripts.
+
+Can do everything you do with your mouse—often faster.
+
+🧰 Why Learn Bash?
+
+Greater control – access deeper system functions.
+
+Automation – run multiple commands at once.
+
+Piping (|) – connect commands (e.g., cd folder | ls -lt | head).
+
+Web development tools often require it (like npm, Node.js, etc.).
+
+Git and server setup use Bash heavily.
+
+🖥️ Writing Bash Scripts
+
+Use a terminal (Mac), Git Bash, or Cygwin (Windows).
+
+Example of a simple script:
+
+#!/bin/bash
+echo "Hello, world!"
+
+📂 Common Bash Commands
+Command           	Description           	        Example
+pwd               	Show current directory	          pwd
+cd	                Change directory                	cd Documents
+ls	                  List files                    	ls -a
+mkdir	                Make a directory               	mkdir newFolder
+touch	                Create a file	                  touch index.html
+echo	                Print or create file          	echo "Hello" > file.txt
+mv	                   Move or rename	                mv old.txt new.txt
+rm / rmdir           	Remove files/folders	          rm -r folder
+grep	                 Search text                  	grep "name" file.txt
+chmod                  Change permissions	            chmod 664 file.txt
+exit	                Close terminal	                 exit
+Ctrl + C	          Stop command	—
+🔒 File Permissions (with chmod)
+
+r = read (4)
+
+w = write (2)
+
+x = execute (1)
+
+Example:
+
+chmod 664 file.txt
+
+
+→ Owner & group can read/write; others can only read.
+
+🧠 Git: Version Control
+What Is Git?
+
+Tracks code changes over time.
+
+Lets teams collaborate without overwriting each other’s work.
+
+The .git Folder
+
+Created when you run git init or git clone.
+
+Stores history, commits, branches, logs, and remote info.
+
+Why Use Git?
+
+Keeps full project history.
+
+Enables collaboration.
+
+Helps manage versions and resolve conflicts.
+
+What Is GitHub?
+
+A cloud-based host for Git repositories.
+
+Lets you share projects with others online.
+
+🔄 Git Workflow (Core Commands)
+Step	Command	Purpose
+Initialize	git init	Start tracking changes
+Clone	git clone <url>	Copy repo from GitHub
+Stage	git add .	Add changes for commit
+Commit	git commit -m "message"	Save changes locally
+Pull	git pull	Get latest version from GitHub
+Push	git push	Upload changes to GitHub
+Branch	git branch <name>	Create branch
+Switch	git checkout <name>	Move to branch
+Merge	git merge <name>	Combine branches
+🌿 Forking & Pull Requests
+
+Fork: Copy someone’s GitHub repo to your own.
+
+Clone → Commit → Push → Pull Request
+
+Pull Request: Ask the original owner to accept your changes.
+
+Merge: Owner reviews and integrates your changes.
+
+💡 Tools to Work with Git
+
+GitHub Desktop – GUI app for beginners.
+
+VS Code Git Integration – use Git commands inside the VS Code terminal.
+
+Git Bash / Terminal – direct command-line access.
+
+🪄 .gitignore File
+
+Tells Git which files/folders to ignore.
+
+Example .gitignore:
+
+node_modules/
+.env
+*.log
+# Personal notes
+todo.txt

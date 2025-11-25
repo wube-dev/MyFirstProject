@@ -1,0 +1,15 @@
+{
+  "name": "myundermodule",
+  "version": "1.0.0",
+  "description": "mt first init ",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
